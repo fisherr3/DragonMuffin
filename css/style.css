@@ -1,0 +1,109 @@
+/* Setting default values*/
+*
+{
+	padding: 0;
+	margin: 0;
+	color: #cdcdcd;
+}
+
+body
+{
+	background-color: #040404
+}
+
+#container
+{
+	padding: 1px 0;
+	margin: 10px;
+	background-color: #282828;
+	border-radius: 15px;
+	flex-direction: row;
+}
+
+.card
+{
+	display: inline-block;
+	height: auto;
+	vertical-align: top;
+}
+
+.card, header, #tableCard
+{
+	margin: 25px 2%;
+	background-color: #444444; 
+	border-radius: 10px;
+	padding: 10px 15px;
+	max-width: 94%;
+}
+
+header
+{
+	display: flex;
+	overflow:hidden;
+}
+
+ul, ol
+{
+	margin-left: 15px;
+}
+
+header > h1
+{
+	display: inline;
+	margin: auto;
+	font-size: 100px;
+}
+
+header > img
+{
+	display: inline;
+	align-self: right;
+	border-radius: 5px;
+	margin: 5px 0 5px auto;
+	object-fit: cover;
+
+}
+
+h2
+{
+	margin-bottom: 5px;
+}
+
+ol > li
+{
+	font-style: italic;
+}
+
+a
+{
+	margin-left: 10px;
+	font-style: initial;
+}
+
+#poem
+{
+	font-style: italic;
+	margin-top: 5px;
+}
+
+#tableCard
+{
+	width: 94%;
+}
+table
+{
+	width: 98%;
+	text-align: center;
+	margin: 1%;
+}
+
+th, td
+{
+	padding: 3px;
+
+}
+
+table, th, td
+{
+	border: 1px solid black;
+}
